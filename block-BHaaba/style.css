@@ -64,18 +64,26 @@ p{
 }
 section{
     margin-top: 50px;
-    margin-left: 100px;
-}
-.one{
-    float: right;
-    padding-right: 100px;
-}
+    margin-left: 100px;}
+
 article{
     margin: 30px;
+}
+
+article{
+    float: left;
+}
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
 }
 footer{
     height: px;
     background-color: cornflowerblue;
     padding: 50px;
     font-size: 40px;
+    color: aliceblue;
 }
