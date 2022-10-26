@@ -73,3 +73,9 @@ section{
 article{
     margin: 30px;
 }
+footer{
+    height: px;
+    background-color: cornflowerblue;
+    padding: 50px;
+    font-size: 40px;
+}
