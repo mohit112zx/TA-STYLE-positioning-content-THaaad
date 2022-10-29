@@ -1,15 +1,54 @@
-<!-- ### Exercise
-
-1. Create a simple page having a header, main content, and a footer.
-
-2. Inside the header keep the logo to the left and all the navigation to the right.
-
-3. The header must be fixed at the top of the page.
-
-4. Inside the main content take an article section having two columns. In the first column put a heading and some introductory text of the article and in the second column take an image.
-
-5. After the article section, take a gallery section, in which there will be two rows and in both the row there will be three columns. Each column must have a different image.
-
-6. After the gallery section footer will come.
-
-7. Take a circular button at the right bottom corner of the page and keep its position fixed. The button should always take to the top of the page once clicked. -->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/style.css">
+        <title>assignment-2</title>
+        </head>
+        <body>
+            <header>
+                <section class="header">
+<div>
+<img src="assets/media/LOGO.png" width="150px" height="100px">
+</div>
+<nav>
+    <a href="#">HOME</a>
+    <a href="#">ABOUT</a>
+    <a href="#">MORE</a>
+    <a href="#">LISTS</a>
+</nav>
+</section>
+            </header>
+            <main>
+<section id="heading">
+    <article class="one">
+   <h1>THE ARTICLE</h1>
+   <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, praesentium ad, nam magnam sequi explicabo recusandae ipsam aspernatur consequatur dolor esse, nobis modi perferendis. Omnis consequatur tenetur facere autem numquam.</p>
+    </article>
+    <article>
+<img class="img" src="assets/media/imageA.png" height="150" width="300">
+    </article>
+</section>
+<section>
+    <div class="two">
+<img class="img" src="assets/media/image1.png"height="150" width="300">
+<img class="img" src="assets/media/image2.png" height="150" width="300">
+<img class="img" src="assets/media/image3.png" height="150" width="300">
+    </div>
+    <div class="three">
+        <img class="img" src="assets/media/image4.png" height="150" width="300">
+        <img class="img" src="assets/media/image5.png" height="150" width="300">
+        <img class="img" src="assets/media/image6.png"height="150" width="300">
+    </div>
+    <a href="#heading">
+    <button>
+        🔝
+    </button>
+</a>
+</section>
+            </main>
+            <footer>
+            &copy;MOHIT
+            </footer>
+        </body>
+</html>
