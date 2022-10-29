@@ -1,0 +1,114 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: black;
+    color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    border: 5px solid green;
+    border-radius: 5px;
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    background-color: white;
+}
+nav{
+    float: right;
+    position: relative;
+    top: -50px;
+    right: 100px;
+}
+#heading{
+    padding-top: 200px;
+}
+.text{
+    height: 150; 
+    width: 300px;
+}
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+.one{
+    float: left;
+    margin-left: 300px
+}
+.two{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+img{
+    display: inline-block;
+    margin-left: 50px;
+}
+.three{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+footer{
+    border: 5px solid cadetblue;
+    border-radius: 5px;
+    background-color: rgb(174, 171, 241);
+    height: 70px;
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    padding: 10px;
+}
+button{
+    position: fixed;
+    bottom: 1px;
+    right: 1px;
+    height: 50px;
+    width: 80px;
+}
+a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
